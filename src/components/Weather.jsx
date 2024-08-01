@@ -19,19 +19,20 @@ const Weather = () => {
         <img className='m-auto w-32 mt-4' src={clear_icon} alt=""/> 
         <p className='flex justify-center text-white text-2xl leading-5'>16° c</p>
         <p className='flex justify-center text-white text-xl '>London</p>
+        <hr className='mt-2'/>
         <div className='w-full mt-8 text-white flex justify-between'>
           <div className="flex items-center gap-3">
-            <img className="" src={humidity_icon} alt=""/>
+            <img className="w-8" src={humidity_icon} alt=""/>
             <div>
-              <p>91%</p>
-              <span className='block'>Humidity</span>
+              <p className='text-lg'>91%</p>
+              <span className='block text-lg'>Humidity</span>
             </div>
           </div>
           <div className='flex items-center gap-3'>
-            <img src={wind_icon} alt=""/>
+            <img className="w-10" src={wind_icon} alt=""/>
             <div>
-              <p>3.6 km/h</p>
-              <span>Wind Speed</span>
+              <p className='text-lg'>3.6 km/h</p>
+              <span className='block text-lg '>Wind Speed</span>
             </div>
           </div>
         </div>
