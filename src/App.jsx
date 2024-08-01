@@ -1,9 +1,10 @@
 import React from 'react'
+import Weather from './components/Weather.jsx'
 
 const App = () => {
   return (
-    <div className='min-h-screen bg-black'>
-        <h1>Software developing</h1>
+    <div className='min-h-screen grid bg-[#bfaad3]'>
+        <Weather />
       </div>
   )
 }
